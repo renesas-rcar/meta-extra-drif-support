@@ -1,0 +1,27 @@
+From a92a3b0e14ba8b77e46d9bd2e9cd54f2355bef1e Mon Sep 17 00:00:00 2001
+From: Fabrizio Castro <fabrizio.castro.jz@renesas.com>
+Date: Thu, 1 Oct 2020 22:47:25 +0100
+Subject: [PATCH 1/2] media: dt-bindings: media: Add r8a77965 DRIF bindings
+
+Add r8a77965 DRIF bindings.
+
+Signed-off-by: Fabrizio Castro <fabrizio.castro.jz@renesas.com>
+---
+ Documentation/devicetree/bindings/media/renesas,drif.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/Documentation/devicetree/bindings/media/renesas,drif.txt b/Documentation/devicetree/bindings/media/renesas,drif.txt
+index 79750200089a..51336c45bf2c 100644
+--- a/Documentation/devicetree/bindings/media/renesas,drif.txt
++++ b/Documentation/devicetree/bindings/media/renesas,drif.txt
+@@ -41,6 +41,7 @@ Required properties of an internal channel:
+ -------------------------------------------
+ - compatible:	"renesas,r8a7795-drif" if DRIF controller is a part of R8A7795 SoC.
+ 		"renesas,r8a7796-drif" if DRIF controller is a part of R8A7796 SoC.
++		"renesas,r8a77965-drif" if DRIF controller is a part of R8A77965 SoC.
+ 		"renesas,r8a77990-drif" if DRIF controller is a part of R8A77990 SoC.
+ 		"renesas,rcar-gen3-drif" for a generic R-Car Gen3 compatible device.
+ 
+-- 
+2.25.1
+

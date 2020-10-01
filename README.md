@@ -1,7 +1,8 @@
 # Meta extra DRIF support meta-layer
 
-This meta-layer adds DRIF support for the R-Car E3 SoC
-to the Yocto BSP v3.21.0 release. This layer depends on:
+This meta-layer adds DRIF support for the R-Car E3 and the
+R-Car M3-N SoCs to the Yocto BSP v3.21.0 release.
+This layer depends on:
 *  URI: https://github.com/renesas-rcar/meta-renesas.git
 *  commit: ad3a8cfee5b6a6fab17cf1c6e5af851eaec75bd7 (corresponding
 to tag *Renesas-Yocto-v3.21.0*)
